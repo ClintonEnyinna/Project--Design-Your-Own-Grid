@@ -108,7 +108,7 @@
 }
 
 .main-container-fluid {
-  width: 100vw;
+  min-width: 1200px;
 }
 
 .col-1,

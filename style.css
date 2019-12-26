@@ -50,10 +50,6 @@
   cursor: pointer;
 }
 
-.odin-town-img {
-  min-width: 1200px;
-}
-
 .how-it-works {
   display: flex;
   flex-direction: column;
@@ -63,8 +59,7 @@
   padding-bottom: 100px;
 }
 
-.how-it-works h2,
-.lbc h4 {
+.how-it-works h2 {
   font-size: 24px;
   color: #4a4a4a;
   font-weight: 700;
@@ -72,28 +67,130 @@
 }
 
 .how-it-works p,
-.lbc p{
+.lbc p {
   font-size: 18px;
   color: rgba(74, 74, 74, 0.7);
   line-height: 33px;
 }
 
-.lbc{
+.lbc {
   margin: 0 auto;
   text-align: center;
+  margin-bottom: 70px;
 }
 
-.lbc .row{
-  display: flex;
-  justify-content: space-between;
+.lbc .row {
+  align-items: flex-start;
 }
 
-.lbc img{
+.lbc img {
   vertical-align: top;
   height: 165px;
 }
 
-.lbc h4{
+.lbc h4 {
+  font-size: 18px;
+  color: #4a4a4a;
+  font-weight: 700;
+  margin-bottom: 36px;
   margin-top: 50px;
 }
 
+.curriculum {
+  background-color: #f3f3f3;
+  padding: 60px 0;
+}
+
+.curr-content {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.curr-content h2 {
+  font-size: 24px;
+  color: #4a4a4a;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.curr-content button {
+  font-weight: 700;
+  color: #fff;
+  background-color: #cc9543;
+  padding: 16px 56px;
+  margin: 40px 0 60px;
+  box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card-container {
+  flex: 0 1 254px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-container h4 {
+  font-size: 18px;
+  color: #4a4a4a;
+  font-weight: 700;
+  margin: 18px 0 8px;
+}
+
+.card {
+  height: 256px;
+  width: 254px;
+  padding: 23px 46px 25px;
+  margin: 0 30px 30px 0;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 7px 16px 0px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.success {
+  background-image: linear-gradient(to bottom, #fff, #eee);
+}
+
+.success .row :first-of-type{
+  margin-top: 20px;
+}
+
+.success h2 {
+  text-align: center;
+  padding-top: 70px;
+  font-size: 24px;
+  color: #4a4a4a;
+  font-weight: 700;
+}
+
+.success .col-7 div div:nth-of-type(1) {
+  width: 12%;
+}
+
+.success .col-7 div div:nth-of-type(2) {
+  width: 88%;
+}
+
+.success .col-7 div div:nth-of-type(2) p a {
+  text-decoration: none;
+  color: #ce973e;
+  line-height: 34px;
+}
+.success .col-7 div div:nth-of-type(2) p{
+  line-height: 33px;
+}
+
+.success img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.success .col-12 {
+  margin: 0 auto;
+}
+
+.success-cont{
+  align-items: flex-end;
+}
