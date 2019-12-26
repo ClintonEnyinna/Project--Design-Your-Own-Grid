@@ -107,6 +107,10 @@
   margin: 0 auto;
 }
 
+.main-container-fluid {
+  width: 100vw;
+}
+
 .col-1,
 .col-2,
 .col-3,

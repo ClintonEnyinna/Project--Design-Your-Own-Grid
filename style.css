@@ -47,4 +47,53 @@
   box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.5);
   border: none;
   border-radius: 5px;
+  cursor: pointer;
 }
+
+.odin-town-img {
+  min-width: 1200px;
+}
+
+.how-it-works {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+.how-it-works h2,
+.lbc h4 {
+  font-size: 24px;
+  color: #4a4a4a;
+  font-weight: 700;
+  margin-bottom: 36px;
+}
+
+.how-it-works p,
+.lbc p{
+  font-size: 18px;
+  color: rgba(74, 74, 74, 0.7);
+  line-height: 33px;
+}
+
+.lbc{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.lbc .row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.lbc img{
+  vertical-align: top;
+  height: 165px;
+}
+
+.lbc h4{
+  margin-top: 50px;
+}
+
