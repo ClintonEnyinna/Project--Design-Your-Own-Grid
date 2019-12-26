@@ -1,0 +1,50 @@
+.odin-logo {
+  font-family: "Norse", serif;
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 700;
+  color: #cc9543;
+}
+
+.odin-img-logo {
+  height: 70px;
+  width: auto;
+}
+
+.main-menu {
+  justify-content: flex-end;
+  font-weight: 700;
+}
+
+.main-menu a {
+  text-decoration: none;
+}
+
+.intro {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.intro h2 {
+  font-size: 36px;
+  font-weight: 300;
+  color: #cc9543;
+  margin: 60px auto 30px;
+}
+
+.intro h3 {
+  font-size: 18px;
+  color: rgba(74, 74, 74, 0.7);
+  padding-bottom: 70px;
+}
+
+.intro button {
+  font-weight: 700;
+  color: #fff;
+  background-color: #6abfc3;
+  padding: 16px 56px;
+  box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 5px;
+}
