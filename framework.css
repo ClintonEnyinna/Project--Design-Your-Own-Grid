@@ -10,8 +10,29 @@
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: local("Open Sans Light"), local("OpenSans-Light"), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN_r8OUuhp.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src:
+    local("Open Sans Light"),
+    local("OpenSans-Light"),
+    url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN_r8OUuhp.woff2)
+      format("woff2");
+  unicode-range:
+    U+0000-00FF,
+    U+0131,
+    U+0152-0153,
+    U+02BB-02BC,
+    U+02C6,
+    U+02DA,
+    U+02DC,
+    U+2000-206F,
+    U+2074,
+    U+20AC,
+    U+2122,
+    U+2191,
+    U+2193,
+    U+2212,
+    U+2215,
+    U+FEFF,
+    U+FFFD;
 }
 
 @font-face {
@@ -19,8 +40,29 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("Open Sans Regular"), local("OpenSans-Regular"), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src:
+    local("Open Sans Regular"),
+    local("OpenSans-Regular"),
+    url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2)
+      format("woff2");
+  unicode-range:
+    U+0000-00FF,
+    U+0131,
+    U+0152-0153,
+    U+02BB-02BC,
+    U+02C6,
+    U+02DA,
+    U+02DC,
+    U+2000-206F,
+    U+2074,
+    U+20AC,
+    U+2122,
+    U+2191,
+    U+2193,
+    U+2212,
+    U+2215,
+    U+FEFF,
+    U+FFFD;
 }
 
 @font-face {
@@ -28,8 +70,29 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local("Open Sans Bold"), local("OpenSans-Bold"), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src:
+    local("Open Sans Bold"),
+    local("OpenSans-Bold"),
+    url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2)
+      format("woff2");
+  unicode-range:
+    U+0000-00FF,
+    U+0131,
+    U+0152-0153,
+    U+02BB-02BC,
+    U+02C6,
+    U+02DA,
+    U+02DC,
+    U+2000-206F,
+    U+2074,
+    U+20AC,
+    U+2122,
+    U+2191,
+    U+2193,
+    U+2212,
+    U+2215,
+    U+FEFF,
+    U+FFFD;
 }
 
 * {
@@ -135,6 +198,223 @@
   display: none;
 }
 
+/* margins */
+
+.m {
+  margin: 1em;
+}
+
+.mt {
+  margin-top: 1em;
+}
+
+.mb {
+  margin-bottom: 1em;
+}
+
+.ml {
+  margin-left: 1em;
+}
+
+.mr {
+  margin-right: 1em;
+}
+
+/* padding */
+
+.pad {
+  padding: 1em;
+}
+
+.pt {
+  padding-top: 1em;
+}
+
+.pb {
+  padding-bottom: 1em;
+}
+
+.pl {
+  padding-left: 1em;
+}
+
+.pr {
+  padding-right: 1em;
+}
+
+/* Positions */
+
+.fleft {
+  float: left;
+}
+
+.fright {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.prelative {
+  position: relative;
+}
+
+.pfixed {
+  position: fixed;
+}
+
+.pabsolute {
+  position: absolute;
+}
+
+/* Display */
+
+.flex {
+  display: flex;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.none {
+  display: none;
+}
+
+/* Align and Justify */
+
+.align-center {
+  align-items: center;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  align-content: flex-end;
+}
+
+/* Bacgrounds */
+
+.bg-color-1 {
+  background-color: red;
+}
+
+.bg-color-2 {
+  background-color: #000;
+}
+
+.bg-color-3 {
+  background-color: #fff;
+}
+
+.bg-color-4 {
+  background-color: #424242;
+}
+
+.bg-color-5 {
+  background-color: red;
+}
+
+.text-color-1 {
+  color: #000;
+}
+
+.text-color-2 {
+  color: #fff;
+}
+
+.text-color-3 {
+  color: #424242;
+}
+
+.text-color-4 {
+  color: red;
+}
+
+.text-color-5 {
+  color: green;
+}
+
+/* Text align */
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* Text titles */
+
+.h1 {
+  font-size: 32px;
+}
+
+.h2 {
+  font-size: 28px;
+}
+
+.h3 {
+  font-size: 26px;
+}
+
+.h4 {
+  font-size: 24px;
+}
+
+.h5 {
+  font-size: 16px;
+}
+
+.p {
+  font-size: 16px;
+}
+
+/* Border */
+
+.border {
+  border: 1rem solid gray;
+}
+
+.border-top {
+  border-top: 1rem solid gray;
+}
+
+.border-bottom {
+  border-bottom: 1rem solid gray;
+}
+
+.border-left {
+  border-left: 1rem solid gray;
+}
+
+.border-right {
+  border-right: 1rem solid gray;
+}
+
+.border-radius {
+  border-radius: 3px;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
 /* Large devices (laptops/desktops, 992px and up) */
 
 @media only screen and (max-width: 1024px) and (min-width: 720px) {
@@ -192,5 +472,49 @@
 @media only screen and (max-width: 720px) {
   [class*="col-"] {
     width: 100%;
+  }
+
+  /* margins */
+
+  .m-sm {
+    margin: 0.5rem;
+  }
+
+  .mt-sm {
+    margin-top: 0.5rem;
+  }
+
+  .mb-sm {
+    margin-bottom: 0.5rem;
+  }
+
+  .ml-sm {
+    margin-left: 0.5rem;
+  }
+
+  .mr-sm {
+    margin-right: 0.5rem;
+  }
+
+  /* padding */
+
+  .p-sm {
+    padding: 0.5rem;
+  }
+
+  .pt-sm {
+    padding-top: 0.5rem;
+  }
+
+  .pb-sm {
+    padding-bottom: 0.5rem;
+  }
+
+  .pl-sm {
+    padding-left: 0.5rem;
+  }
+
+  .pr-sm {
+    padding-right: 0.5rem;
   }
 }
