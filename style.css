@@ -15,6 +15,7 @@
 .main-menu {
   justify-content: flex-end;
   font-weight: 700;
+  height: 12vh;
 }
 
 .main-menu a {
@@ -50,6 +51,32 @@
   cursor: pointer;
 }
 
+.img-container {
+  background:
+    url(https://www.theodinproject.com/assets/home-isometric-60f02f572fa9ae583a22bf4d391e48f30cae707cbdb602e130bc3f12d73bac85.svg)
+    center no-repeat;
+  background-size: cover;
+  height: 551px;
+  width: 100%;
+}
+
+.offscreen {
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  margin: -1px;
+  border: 0;
+  position: absolute;
+  overflow: hidden;
+  opacity: 0;
+  clip: rect(0 0 0 0);
+  clip-path: rect(0 0 0 0);
+}
+
+.odin-town-img {
+  min-width: 1500px;
+}
+
 .how-it-works {
   display: flex;
   flex-direction: column;
@@ -79,6 +106,10 @@
   margin-bottom: 70px;
 }
 
+footer .row {
+  align-items: center;
+}
+
 .lbc .row {
   align-items: flex-start;
 }
@@ -98,7 +129,7 @@
 
 .curriculum {
   background-color: #f3f3f3;
-  padding: 60px 0;
+  padding-top: 60px;
 }
 
 .curr-content {
@@ -143,7 +174,7 @@
   width: 254px;
   padding: 23px 46px 25px;
   margin: 0 30px 30px 0;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 7px 16px 0px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 7px 16px 0;
   background-color: #fff;
   text-align: center;
 }
@@ -152,7 +183,7 @@
   background-image: linear-gradient(to bottom, #fff, #eee);
 }
 
-.success .row :first-of-type{
+.success .row :first-of-type {
   margin-top: 20px;
 }
 
@@ -172,13 +203,29 @@
   width: 88%;
 }
 
+.sign-up a {
+  color: rgba(74, 74, 74, 0.7);
+}
+
+.footer-menu a {
+  text-decoration: none;
+  font-weight: 700;
+  color: rgba(74, 74, 74, 0.7);
+}
+
+.footer-menu a:hover {
+  color: #353535;
+}
+
 .success .col-7 div div:nth-of-type(2) p a {
   text-decoration: none;
   color: #ce973e;
   line-height: 34px;
 }
-.success .col-7 div div:nth-of-type(2) p{
+
+.success .col-7 div div:nth-of-type(2) p {
   line-height: 33px;
+  color: rgba(74, 74, 74, 0.7);
 }
 
 .success img {
@@ -191,6 +238,53 @@
   margin: 0 auto;
 }
 
-.success-cont{
+.success-cont {
   align-items: flex-end;
+}
+
+.sign-up {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.sign-up h2 {
+  font-size: 36px;
+  font-weight: 300;
+  color: rgba(74, 74, 74, 0.7);
+  margin: 60px auto 30px;
+}
+
+.sign-up button {
+  font-weight: 700;
+  color: #fff;
+  background-color: #6abfc3;
+  padding: 16px 56px;
+  box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons li {
+  margin: 0 25px;
+}
+
+.social-icons .fab {
+  color: #cc9543;
+}
+
+.column-1 {
+  padding-left: 100px;
 }
