@@ -196,13 +196,9 @@ footer .row {
   background-image: linear-gradient(to bottom, #fff, #eee);
 }
 
-.success .row :first-of-type {
-  margin-top: 20px;
-}
-
 .success h2 {
   text-align: center;
-  padding-top: 70px;
+  padding: 70px 0;
   font-size: 24px;
   color: #4a4a4a;
   font-weight: 700;
@@ -238,13 +234,13 @@ footer .row {
   color: #353535;
 }
 
-.success .col-7 div div:nth-of-type(2) p a {
+.success div div:nth-of-type(2) p a {
   text-decoration: none;
   color: #ce973e;
   line-height: 34px;
 }
 
-.success .col-7 div div:nth-of-type(2) p {
+.success div div:nth-of-type(2) p {
   line-height: 33px;
   color: rgba(74, 74, 74, 0.7);
 }
@@ -257,12 +253,8 @@ footer .row {
 
 .success-cont {
   flex-wrap: wrap;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: center;
-}
-
-.success-cont .col-7 {
-  flex: 0 1 500px;
 }
 
 .sign-up {
