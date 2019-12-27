@@ -4,9 +4,13 @@ This is the final project of the HTML & CSS of the Microverse curriculum. We hav
 
 For more information about the project visit [The Odin Project](https://www.theodinproject.com/)
 
-![screenshot](./app_screenshot.png)
+- Original web page
 
-Additional description about the project and its features.
+![The Odin Project](./assets/img/top.png)
+
+- Our solution
+
+![Clone](./assets/img/clone_top.png)
 
 ## Built With
 
@@ -14,7 +18,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://raw.githack.com/jubaan/Project--Design-Your-Own-Grid/grid-based-framework/index.html)
 
 ## Authors
 
