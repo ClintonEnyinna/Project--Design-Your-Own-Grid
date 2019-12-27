@@ -204,19 +204,7 @@ footer .row {
   font-weight: 700;
 }
 
-.success .col-7 div div:nth-of-type(1) {
-  width: 12%;
-}
-
-.success .col-7 div div:nth-of-type(2) {
-  width: 88%;
-}
-
 .success section {
-  width: 100%;
-}
-
-.success .col-12 {
   width: 100%;
 }
 
