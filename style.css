@@ -256,7 +256,13 @@ footer .row {
 }
 
 .success-cont {
+  flex-wrap: wrap;
   align-items: flex-end;
+  justify-content: center;
+}
+
+.success-cont .col-7 {
+  flex: 0 1 500px;
 }
 
 .sign-up {
