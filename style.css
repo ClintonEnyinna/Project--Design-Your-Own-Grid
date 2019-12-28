@@ -1,0 +1,358 @@
+nav {
+  justify-content: space-between;
+}
+
+.odin-logo {
+  font-family: "Norse", serif;
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 700;
+  color: #cc9543;
+}
+
+.odin-img-logo {
+  height: 70px;
+  width: auto;
+}
+
+.main-menu {
+  justify-content: flex-end;
+  font-weight: 700;
+  height: 12vh;
+}
+
+.main-menu a {
+  text-decoration: none;
+}
+
+.menu .fa-bars {
+  display: none;
+}
+
+.intro {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.intro h2 {
+  font-size: 36px;
+  font-weight: 300;
+  color: #cc9543;
+  margin: 60px auto 30px;
+}
+
+.intro h3 {
+  font-size: 18px;
+  color: rgba(74, 74, 74, 0.7);
+  padding-bottom: 70px;
+}
+
+.intro button {
+  font-weight: 700;
+  color: #fff;
+  background-color: #6abfc3;
+  padding: 16px 56px;
+  box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.img-container {
+  background:
+    url(https://www.theodinproject.com/assets/home-isometric-60f02f572fa9ae583a22bf4d391e48f30cae707cbdb602e130bc3f12d73bac85.svg)
+    center no-repeat;
+  background-size: cover;
+  height: 551px;
+  max-width: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.offscreen {
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  margin: -1px;
+  border: 0;
+  position: absolute;
+  overflow: hidden;
+  opacity: 0;
+  clip: rect(0 0 0 0);
+  clip-path: rect(0 0 0 0);
+}
+
+.odin-town-img {
+  width: 100vw;
+}
+
+.how-it-works {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 100px;
+  align-items: center;
+}
+
+.how-it-works h2 {
+  font-size: 24px;
+  color: #4a4a4a;
+  font-weight: 700;
+  margin-bottom: 36px;
+}
+
+.how-it-works p,
+.lbc p {
+  font-size: 18px;
+  color: rgba(74, 74, 74, 0.7);
+  line-height: 33px;
+}
+
+.lbc {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+footer .row {
+  align-items: center;
+}
+
+.lbc .row {
+  align-items: center;
+}
+
+.lbc img {
+  vertical-align: top;
+  height: 165px;
+}
+
+.lbc h4 {
+  font-size: 18px;
+  color: #4a4a4a;
+  font-weight: 700;
+  margin-bottom: 36px;
+  margin-top: 50px;
+}
+
+.curriculum {
+  background-color: #f3f3f3;
+  padding-top: 60px;
+}
+
+.curr-content {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.curr-content h2 {
+  font-size: 24px;
+  color: #4a4a4a;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.curr-content button {
+  font-weight: 700;
+  color: #fff;
+  background-color: #cc9543;
+  padding: 16px 56px;
+  margin: 40px 0 60px;
+  box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card-container {
+  display: flex;
+  flex: 0 1 254px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 1000px;
+}
+
+.card-container h4 {
+  font-size: 18px;
+  color: #4a4a4a;
+  font-weight: 700;
+  margin: 18px 0 8px;
+}
+
+.card {
+  height: 256px;
+  width: 254px;
+  padding: 23px 46px 25px;
+  margin: 0 15px 30px 15px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 7px 16px 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.success {
+  background-image: linear-gradient(to bottom, #fff, #eee);
+}
+
+.success h2 {
+  text-align: center;
+  padding: 70px 0;
+  font-size: 24px;
+  color: #4a4a4a;
+  font-weight: 700;
+}
+
+.success section {
+  width: 100%;
+}
+
+.sign-up a {
+  color: rgba(74, 74, 74, 0.7);
+}
+
+.footer-menu a {
+  text-decoration: none;
+  font-weight: 700;
+  color: rgba(74, 74, 74, 0.7);
+}
+
+.footer-menu a:hover {
+  color: #353535;
+}
+
+.success div div:nth-of-type(2) p a {
+  text-decoration: none;
+  color: #ce973e;
+  line-height: 34px;
+}
+
+.success div div:nth-of-type(2) p {
+  line-height: 33px;
+  color: rgba(74, 74, 74, 0.7);
+}
+
+.success img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.success-cont {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: center;
+  padding-bottom: 70px;
+}
+
+.success-cont .col-lg-5 {
+  flex: 0 1 400px;
+}
+
+.sign-up {
+  text-align: center;
+  padding: 80px 0;
+  margin: 0 auto;
+}
+
+.sign-up h2 {
+  font-size: 36px;
+  font-weight: 300;
+  color: rgba(74, 74, 74, 0.7);
+  margin: 60px auto 30px;
+}
+
+.sign-up button {
+  font-weight: 700;
+  color: #fff;
+  background-color: #6abfc3;
+  padding: 16px 56px;
+  box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons li {
+  margin: 0 25px;
+}
+
+.social-icons .fab {
+  color: #cc9543;
+}
+
+.column-1 {
+  padding-left: 100px;
+}
+
+@media only screen and (max-width: 990px) {
+  .logo-footer {
+    display: none;
+  }
+
+  .lbc-container {
+    flex-flow: column;
+    text-align: center;
+  }
+
+  .lbc-container div {
+    max-width: 400px;
+  }
+
+  .footer-menu {
+    display: none;
+  }
+
+  footer {
+    height: 10vh;
+  }
+
+  .social-icons {
+    margin: 0 auto;
+  }
+
+  .social-icons .menu-item {
+    display: inline;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .odin-logo {
+    min-width: 250px;
+    font-size: 22px;
+  }
+
+  .oding-img-logo {
+    width: 90%;
+  }
+
+  .menu {
+    width: 100%;
+  }
+
+  .menu-item {
+    display: none;
+  }
+
+  .menu .fa-bars {
+    display: inline-block;
+    margin-right: 20px;
+  }
+}

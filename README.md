@@ -1,53 +1,38 @@
-# Project Name
+# Project: Design Your Own Grid-Based Framework
 
-> One paragraph statement about the project.
+This is the final project of the HTML & CSS of the Microverse curriculum. We have to use everything we have learned until now to build our own simple grid-based framework and then use it to clone any website, in this case The Odin Project front page.
 
-![screenshot](./app_screenshot.png)
+For more information about the project visit [The Odin Project](https://www.theodinproject.com/)
 
-Additional description about the project and its features.
+- Original web page
+
+![The Odin Project](./assets/img/top.png)
+
+- Our solution
+
+![Clone](./assets/img/clone_top.png)
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML & CSS
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+[Live Demo Link](https://raw.githack.com/jubaan/Project--Design-Your-Own-Grid/grid-based-framework/index.html)
 
 ## Authors
 
-👤 **Author1**
+👤 **Julio Añoveros**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@jubaan](https://github.com/jubaan)
+- Twitter: [@AnoverosJulio](https://twitter.com/AnoverosJulio)
+- Linkedin: [linkedin](https://www.linkedin.com/in/julio-a%C3%B1overos-b987a8a/)
 
-👤 **Author2**
+👤 **Clinton Enyinna**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@ClintonEnyinna](https://github.com/ClintonEnyinna)
+- Twitter: [@ClintonEnyinna](https://twitter.com/ClintonEnyinna)
+- Linkedin: [linkedin](https://linkedin.com/in/clinton-enyinna-a72031125)
 
 ## 🤝 Contributing
 
@@ -58,12 +43,6 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
