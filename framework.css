@@ -104,7 +104,7 @@
 
 .main-container {
   max-width: 1200px;
-  min-width: 360px;
+  min-width: 345px;
   width: 100%;
   display: flex;
   flex-flow: column;
@@ -134,7 +134,7 @@
 
 .row {
   width: 100%;
-  padding: 0 10px;
+  padding: 0 5px;
   display: flex;
 }
 

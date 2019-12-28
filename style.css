@@ -65,7 +65,10 @@ nav {
     center no-repeat;
   background-size: cover;
   height: 551px;
+  max-width: 100%;
   width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 .offscreen {
@@ -240,9 +243,15 @@ footer .row {
 }
 
 .success-cont {
-  flex-wrap: wrap;
+  display: flex;
+  flex-flow: row wrap;
   align-items: flex-start;
   justify-content: center;
+  padding-bottom: 70px;
+}
+
+.success-cont .col-lg-5 {
+  flex: 0 1 400px;
 }
 
 .sign-up {
@@ -326,7 +335,12 @@ footer {
 
 @media only screen and (max-width: 768px) {
   .odin-logo {
-    min-width: 300px;
+    min-width: 250px;
+    font-size: 22px;
+  }
+
+  .oding-img-logo {
+    width: 90%;
   }
 
   .menu {
