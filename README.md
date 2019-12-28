@@ -18,7 +18,7 @@ For more information about the project visit [The Odin Project](https://www.theo
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/jubaan/Project--Design-Your-Own-Grid/grid-based-framework/index.html)
+[Live Demo Link](https://raw.githack.com/jubaan/Project--Design-Your-Own-Grid/master/index.html)
 
 ## Authors
 
